@@ -275,4 +275,4 @@ julia main.jl -i ./tutorial_data/ES_chr7.txt -o ./tutorial_data/MS_chr7.txt ./tu
     ES_merged_eigenvector.bed  MS_merged_eigenvector.bed
 ```
 
-5) Watch video tutorial on how to use Browser. [Video Tutorial](./tutorial_data/video_tutorial)
+5) Watch video tutorial on how to use Browser. [Video Tutorial](https://drive.google.com/file/d/0B1dD8MQRH4qZcjJnLWdoOEd3WE0/view)
