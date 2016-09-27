@@ -248,7 +248,7 @@ The first line states the # of subsequent lines, and the remaining lines contain
 
 [numeric.js](http://www.numericjs.com)
 
-## Reproducing Figure 1 from Bioinformatics application note
+## QUICK START: reproducing Figure 1 from Bioinformatics application note
 
 1) Conduct 3D inference for chr. 7 with ES control
 
