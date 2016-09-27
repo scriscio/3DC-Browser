@@ -46,7 +46,9 @@ To update the package for future use run:
 
 ## Quick Start:
 
-Scroll down to Reproducing Figure 1 from Bioinformatics application note 
+Scroll down to reproducing Figure 1 from Bioinformatics application note at bottom of page.
+
+
 
 ## Full Guide:
 
@@ -250,19 +252,27 @@ The first line states the # of subsequent lines, and the remaining lines contain
 
 1. Conduct 3D inference for chr. 7 with ES control
 
-    julia main.jl -o ./tutorial_data/ES_chr7.txt ./tutorial_data/ES_merged_chr7.csv > ./tutorial_data/ES_chr7.stdout
+```
+julia main.jl -o ./tutorial_data/ES_chr7.txt ./tutorial_data/ES_merged_chr7.csv > ./tutorial_data/ES_chr7.stdout
+```
 
 2. Conduct 3D inference for chr. 7 with MS cells initialized by ES structure
 
-    julia main.jl -i ./tutorial_data/ES_chr7.txt -o ./tutorial_data/MS_chr7.txt ./tutorial_data/MS_merged_chr7.csv > ./tutorial_data/MS_chr7.stdout
+```
+julia main.jl -i ./tutorial_data/ES_chr7.txt -o ./tutorial_data/MS_chr7.txt ./tutorial_data/MS_merged_chr7.csv > ./tutorial_data/MS_chr7.stdout
+```
 
 3. I provide a static version of the output in the ./tutorial_data/ folder as:
 
+```
     static.ES_chr7.txt     static.MS_chr7.txt
     static.ES_chr7.stdout  static.MS_chr7.stdout
-    
+```
+
 4. I provide the A and B compartment signals in the ./tutorial_data/ folder as:
 
+```
     ES_merged_eigenvector.bed  MS_merged_eigenvector.bed
+```
 
-5. 
+5. Watch video tutorial on how to use Browser. [Video Tutorial](./tutorial_data/video_tutorial)
